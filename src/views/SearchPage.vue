@@ -17,11 +17,10 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router'
-import { onMounted, ref, computed, watch } from 'vue'
+import { ref, watch } from 'vue'
 import { useMainStore } from '@/stores/main'
 
-import VueDatePicker from '@vuepic/vue-datepicker';
+import VueDatePicker from '@vuepic/vue-datepicker'
 import '@vuepic/vue-datepicker/dist/main.css'
 
 const { getRates } = useMainStore()

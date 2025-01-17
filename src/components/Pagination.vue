@@ -22,7 +22,7 @@ const props = defineProps({
 
 const emit = defineEmits(['changePage'])
 
-let page = ref(1)
+const page = ref(1)
 
 watch(page, val => {
   emit('changePage', val)

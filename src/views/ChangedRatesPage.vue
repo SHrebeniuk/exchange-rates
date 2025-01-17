@@ -27,7 +27,7 @@
 </template>
 
 <script setup>
-import { onMounted, ref, watch } from 'vue'
+import { ref, watch, onMounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { storeToRefs } from 'pinia'
 import { useMainStore } from '@/stores/main'
@@ -38,7 +38,6 @@ const route = useRoute()
 const router = useRouter()
 
 const newRateRef = ref({})
-const changedRates = ref([])
 const isForm = ref(false)
 const choosenRate = ref({})
 const newRate = ref('')

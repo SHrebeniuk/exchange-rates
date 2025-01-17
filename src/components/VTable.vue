@@ -40,8 +40,7 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router'
-import { ref, computed, watch, onMounted } from 'vue'
+import { ref, watch, onMounted } from 'vue'
 import Pagination from '@/components/Pagination.vue'
 
 const props = defineProps({

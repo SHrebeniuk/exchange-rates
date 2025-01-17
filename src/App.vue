@@ -8,10 +8,6 @@
   <RouterView />
 </template>
 
-<script setup>
-import { RouterView, RouterLink } from 'vue-router'
-</script>
-
 <style lang="sass" scoped>
 header
   margin-bottom: 20px
